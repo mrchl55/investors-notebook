@@ -72,8 +72,10 @@ document.addEventListener("DOMContentLoaded", () => {
 const sendData = async (wojewodztwo, miasto, adres, notatki) => {
     const fullAddress = [wojewodztwo, miasto, adres].join(',')
     const formData = {
-        Address: fullAddress,
-        Notes: notatki
+        entry :{
+            Address: fullAddress,
+            Notes: notatki
+        }
     }
 
     fetch('https://wavy-media-proxy.wavyapps.com/investors-notebook/?action=get_entries', {
