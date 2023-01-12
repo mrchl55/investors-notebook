@@ -84,14 +84,19 @@ const sendData = async (wojewodztwo, miasto, adres, notatki) => {
     })
         .then(res => {
             console.log(res)
+
             return res.json()
         })
         .then(data => {
             console.log(data)
+            if(data?.length){
+                fetchData()
+            }
         })
         .catch(error => {
             console.log(error)
         });
+
     ;
 }
 
