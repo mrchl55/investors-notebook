@@ -1,0 +1,7 @@
+body {
+    background-color: #454545;
+}
+
+.single-entry:hover {
+    cursor: pointer;
+}

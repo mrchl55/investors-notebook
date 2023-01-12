@@ -1,0 +1,25 @@
+body {
+    background-color: #939393;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+#latestEntriesTable {
+    margin-top: 20px;
+}
+
+#latestEntriesTable, #latestEntriesTable td {
+    border: 1px solid black;
+}
+
+
+tr {
+    font-size: 18px;
+}
+
+tr.title-row {
+    font-weight: 700;
+    font-size: 20px;
+}

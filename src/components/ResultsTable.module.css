@@ -1,0 +1,26 @@
+.pagination, .results {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.results {
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.results li {
+    margin: 5px 0;
+
+}
+
+.pagination li {
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pagination li:hover {
+    cursor: pointer;
+    opacity: .8;
+}
